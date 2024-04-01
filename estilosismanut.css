@@ -1,0 +1,76 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+nav{
+	margin: 10px;
+}
+
+body {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: #fff;
+	margin: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+#header {
+	position: relative;
+	text-align: center;
+	background-color: #ffc107;
+
+}
+
+/*Cor de fundo do texto "Formulário de manutenção"*/
+.mb-4 {
+	background-color: #343a40;
+	color: #ffc107;
+	border-radius: 10px;
+	padding: 15px 15px 15px 15px; /*Preenchimento*/
+	}
+
+
+.botao{
+	margin-top: 5px;
+	position: relative;
+		
+}
+
+/*Rodapé*/
+footer {
+    background-color: #343a40;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 700px;
+}
+
+/*nomes no Rodapé*/
+#nome1 {
+	position: relative;
+    font-family:'-apple-system'; font-size:15px; /* Fonte*/
+    color: White;
+    text-align: left;
+    right: -20px;
+}
+#nome2 {
+	position: relative;
+    font-family:'-apple-system'; font-size:15px; /* Fonte*/
+    color: White;
+    text-align: left;
+    right: -92px;
+}
+#nome3 {
+	position: relative;
+    font-family:'-apple-system'; font-size:15px; /* Fonte*/
+    color: White;
+    text-align: left;
+    right: -92px;
+	
+}
