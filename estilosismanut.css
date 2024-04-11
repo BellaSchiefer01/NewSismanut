@@ -48,7 +48,7 @@ footer {
     background-color: #343a40;
     padding: 8px;
     border-radius: 10px;
-    margin-top: 700px;
+    margin-top: 60px;
 }
 
 /*nomes no Rodapé*/
@@ -56,24 +56,10 @@ footer {
 	position: relative;
     font-family:'-apple-system'; font-size:15px; /* Fonte*/
     color: White;
-    text-align: left;
+    text-align: center;
     right: -20px;
 }
-#nome2 {
-	position: relative;
-    font-family:'-apple-system'; font-size:15px; /* Fonte*/
-    color: White;
-    text-align: left;
-    right: -92px;
-}
-#nome3 {
-	position: relative;
-    font-family:'-apple-system'; font-size:15px; /* Fonte*/
-    color: White;
-    text-align: left;
-    right: -92px;
-	
-}
+
 
 /*Container.grid*/
 .container-grid {
@@ -82,17 +68,44 @@ footer {
 	background-color: #343a40; /*Cor de fundo*/
 	position: relative; /*Posso colocar em qualquer lugar*/
 	border-radius: 10px; /*Borda*/
-	margin-top: 150px; /*Margem de cima no container*/
-	padding: 20px; /*Preenchimento*/
-	grid-template-columns: 150px 150px 150px; /*Define quantas colunas e qual o tamanho delas na grid*/
+	margin-top: 60px; /*Margem de cima no container*/
+	padding: 30px; /*Preenchimento*/
+	grid-template-columns: 150px 150px; /*Define quantas colunas e qual o tamanho delas na grid*/
 	justify-content: space-evenly; /*Itens distribuídos igualmente no espaço disponível*/
-
+	
 
 }
-.grid-item {
-	background-color: #fff; /*Mudar para foto*/
+.grid-item{
 	border: 6px solid #ffc107; /*Cor da borda*/
-  	padding: 70px 50px; /*medida dos quadrados*/
   	font-size: 30px; /*Mudar*/
 	border-radius: 10px; /*Borda dos quadrados*/
+}
+
+.flexcontainer{
+	display: flex;
+	justify-content: space-evenly;/*Itens distribuídos igualmente no espaço disponível*/
+	gap: 195px; /*Define o espaçamento entre os elementos*/
+	margin-top: -18px; /*Margem de cima*/
+	background-color: #343a40; /*Cor de fundo*/
+	padding: 20px; /*Preenchimento*/
+	border-radius: 10px; /*Borda arredondada*/
+	
+	
+}
+
+.modelos{
+	color: #fff; /*Cor da fonte*/
+	font-family: Helvetica, "Trebuchet MS", sans-serif; /*Fonte*/
+	border: 1px solid #ffc107; /*Cor da borda*/
+	border-radius: 4px; /*Borda arredondada*/
+	border-style: double;/*Borda dupla*/
+	border-width: 6px 6px; /*largura da borda*/
+	padding: 15px 15px 15px 15px; /*Preenchimento borda*/
+	
+}
+
+/*Transition nodelos da impressora*/
+.modelos:hover{
+	transition: 0.5s; /*Tempo*/
+	transform: scale(1.2); /*Tamnanho do efeito*/
 }
