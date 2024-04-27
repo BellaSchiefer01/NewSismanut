@@ -109,3 +109,54 @@ footer {
 	transition: 0.5s; /*Tempo*/
 	transform: scale(1.2); /*Tamnanho do efeito*/
 }
+
+/*Parte Desenvolvedores*/
+.Desenvolvedores{
+	background-color: #ffc107;
+	margin-top: 100px;
+	padding: 80px;
+	border-radius: 20px;
+	border-style: dashed;
+
+	
+}
+
+.photo{
+	display: flex; /*Torna elemento um flez container transformando automaticamente todos os seus filhos diretos em flex itens*/
+	justify-content: space-evenly; /*Define alinhamento dos itens ao longo do eixo principal*/
+	flex-direction: column;
+	align-content: space-between;
+	
+}
+
+
+.border{
+	display: flex;
+	margin-bottom: 50px;
+	padding: 40px 50px 50px 40px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 10px 20px grey;
+	align-items: center;
+
+}
+
+.photoborder{
+	border: 2px solid black;
+	border-radius: 10px;
+	border-style: dashed;
+}
+.text{
+	display: flex; /*Torna elemento um flez container transformando automaticamente todos os seus filhos diretos em flex itens*/
+	margin-top: 20px;
+	color: black;
+	font-family: Helvetica, "Trebuchet MS", sans-serif; /*Fonte*/
+	text-align:justify;
+	font-size: 16px;
+	padding-left: 40px;
+
+}
+.border:hover{
+	transition: 0.5s; /*Tempo*/
+	transform: scale(1.2); /*Tamnanho do efeito*/
+}
